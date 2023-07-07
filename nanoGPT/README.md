@@ -1,3 +1,6 @@
+
+
+
 This project is inspired by Andrej Karpathy's nanoGPT video that can be found [here.](https://www.youtube.com/watch?v=kCc8FmEb1nY)
 It builds a GPT like decoder only language model from scratch using the tiny Shakespeare dataset.  
 
