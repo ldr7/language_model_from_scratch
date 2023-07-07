@@ -10,7 +10,9 @@ The final model contains 6 blocks with each having 6 attention heads and 384 dim
  - GPT-2 is fine tuned on the Shakespeare dataset and prompted for generation. The fine tuning notebook and the output is added.
  - Falcon (7B) is prompted to generate text.
 
-It's not too suprising that the best generated text is from ChatGPT. Our custom model trained only on Shakespeare does not learn enough information to learn the broader language. Any more increase in epochs or learnable parameters leads to sharp overfitting.
+As can be seen in the output, the model does generate text that resembles Shakespeare writing in overall structure. It's not too suprising that the custom model does not track long term dependencies well. Our custom model trained only on Shakespeare does not learn enough information to learn the broader language. Any more increase in epochs or learnable parameters leads to sharp overfitting. However given the dataset, the model is able to able to generate text that is undoubtedly Shakespeare-ish.
+
+While fine-tuning GPT2 was possible, its output (like that of ChatGPT & Falcon) is extremly sensitive to the prompt given. As a result several manual prompt attempts were made. Future work will look into using advanced prompt engineering methods to optimize this process.
 
 ## Ablation Studies  
 Since the compponents are written from scratch, I was able to carry out ablation experiments & make the following observations about the various components in the Transformer architecture from the performance of the model:
