@@ -6,7 +6,7 @@ It builds a GPT like decoder only language model from scratch using the tiny Sha
 The final model contains 6 blocks with each having 6 attention heads and 384 dimensional token representation. Its trained for 5K epochs with a learning rate of 3e-4.Training takes ~ 10 minutes on the A100 GPU.  
 ## Outputs
  -  Generated text can be seen [here](https://github.com/ldr7/language_model_from_scratch/blob/main/nanoGPT/output.txt). This is from the Language model built from scratch.
- - To compare against existing models, the output of ChatGPT is included in the file chatgpt_output.txt
+ - To compare against existing models, the output of ChatGPT is included in the file [here.](https://github.com/ldr7/language_model_from_scratch/blob/main/nanoGPT/chatgpt_output.txt)
  - GPT-2 is fine tuned on the Shakespeare dataset and prompted for generation. The fine tuning notebook and the output is added.
  - Falcon (7B) is prompted to generate text.
 
