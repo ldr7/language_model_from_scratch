@@ -3,7 +3,7 @@
 This project is inspired by Andrej Karpathy's nanoGPT video that can be found [here.](https://www.youtube.com/watch?v=kCc8FmEb1nY)
 It builds a GPT like decoder only language model from scratch using the tiny Shakespeare dataset.  
 
-The final model contains 6 blocks with each having 6 attention heads and 384 dimensional token representation. Its trained for 5K epochs with a learning rate of 3e-4.Training takes ~ 10 minutes on the A100 GPU.  
+The final model contains 6 blocks with each having 6 attention heads and 384 dimensional token representation. Its trained for 5K epochs with a learning rate of 3e-4. Training takes ~ 10 minutes on the A100 GPU.  
 ## Outputs
  -  Generated text can be seen [here](https://github.com/ldr7/language_model_from_scratch/blob/main/nanoGPT/output.txt). This is from the Language model built from scratch.
  - To compare against existing models, the output of ChatGPT is included in the file [here.](https://github.com/ldr7/language_model_from_scratch/blob/main/nanoGPT/chatgpt_output.txt)
